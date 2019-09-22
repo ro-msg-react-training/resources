@@ -143,3 +143,53 @@ Online Shop:
  - [The `.map` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
  - [Why do I need Keys in React Lists?](https://medium.com/@adhithiravi/why-do-i-need-keys-in-react-lists-dbb522188bbb)
  - [React Virtual DOM Explained](https://programmingwithmosh.com/react/react-virtual-dom-explained/)
+ 
+ ## 3. SCSS
+ 
+ Goal: understand the usage of SCSS and integrate an existing CSS library - Bulma.
+ 
+ Required Reading:
+
+- [SASS Basics](https://sass-lang.com/guide)
+- [Bulma Introduction](https://www.freecodecamp.org/news/learn-bulma-in-5-minutes-ec5188c53e83/)
+- [Adding a SCSS Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+
+Online Shop:
+
+ > Install the Bulma library. Use the built-in CSS classes to style your existing components.
+ >
+ > Change the theme of the Bulma classes by replacing the following:
+ > - Primary color: #a01441
+ > - Font: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+ 
+ Further Resources:
+ 
+ - [Theming Bulma](https://bulma.io/documentation/customize/with-node-sass/)
+ - [Bulma Documentation](https://bulma.io/documentation/)
+ - [SCSS Basics](https://medium.com/web-development-articles/scss-basics-279ce9c0acb8)
+ 
+ ## 4. Routing
+ 
+ Goal: understand the basics of React Router and add routing to your project
+ 
+ Required Reading:
+
+ - [React Router: Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
+ - [React Router: Components](https://reacttraining.com/react-router/web/guides/basic-components)
+ - [A Simple React Router Tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutorial/)
+ 
+ Online Shop:
+ 
+ > Add a button next to each product from the product list. You can use it to navigate to a specific product's detail page.
+ >
+ > From the detail page of the product, the user may add it to his shopping cart (by pressing a button).
+ >
+ > Add Routing to your project and implement a navigation between the list of all products and the product detail page.
+ > 
+ > Add a navigation which redirects users from the default path ('/') to the '/products' page and displays by default the list of all products.
+ >
+ > Enhance your app with routing parameters, such that you can navigate to a specific product's detail page.
+ 
+ Further Resources:
+ 
+  - [React Router: Redirects](https://reacttraining.com/react-router/web/example/auth-workflow)
