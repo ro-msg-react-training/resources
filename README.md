@@ -10,9 +10,11 @@
  - [2. Components](#2-components)
  - [3. SCSS](#3-scss)
  - [4. Routing](#4-routing)
- - [5. Basic Redux](#5-basic-redux)
- - [6. Recompose](#6-recompose)
- - [7. Lazy loading]()
+ - [5. Fetch API](#5-fetch-api)
+ - [6. Basic Redux](#6-basic-redux)
+ - [7. Redux Saga](#6-redux-saga)
+ - [8. Recompose](#7-recompose)
+ - [9. Lazy loading]()
  - [OPT-1. Normalized Redux]()
  - [OPT-2. Internationalization]()
  - [OPT-3. Unit Testing](#opt-5-unit-testing)
@@ -193,3 +195,60 @@ Online Shop:
  Further Resources:
  
   - [React Router: Redirects](https://reacttraining.com/react-router/web/example/auth-workflow)
+  
+ ## 5. Fetch API
+ 
+ Goal: communicate with the mock backend using the Fetch API.
+ 
+ Required Reading:
+ 
+  - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+  - [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data)
+ 
+Online Shop:
+
+ > Use the Fetch API to read the products from the backend to fill in the product list. 
+ > 
+ > When navigating to the product detail page, read the product information from the backend.
+ >
+ > Add a new "Delete" button on the detail page, which calls the backend to remove a product from the catalogue.
+ >
+ > Add a new "Checkout" button on the shopping cart page, which creates a new order on the backend.
+ 
+ Further Resources:
+  
+  - [React Component Reference](https://reactjs.org/docs/react-component.html)
+ 
+ ## 6. Basic Redux
+ 
+ Goal: use Redux to manage application state and understand the difference between container and presentational components.
+ 
+ Required Reading:
+ 
+  - [Container vs Presentational Components in React](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)
+  - [Redux: Getting Started](https://redux.js.org/introduction/getting-started)
+  - [Redux: Basic Tutorial](https://redux.js.org/basics/basic-tutorial)
+
+Online Shop:
+
+  > Add a new "Edit" button on the detail page. Pressing it should open a new view, it shouldupdate the properties of the product. The view should have two buttons: "Cancel" (which undos all the changes) and "Save" (which calls the backend to persist the changes).
+ >
+ > Add some validation to your form (ex: check that the fields are not empty, that the price and weight inputs contain only numbers, etc.)
+ >
+ > Also create a new "Add" button on the product list. Pressing this button should open a view for creating a new product (which the same structure and buttons as the edit view).
+ >
+ > Store all application state in a Redux store.
+ > 
+ > Hints:
+ >
+ >  - Create a reducer for each page,
+ >  - Add actions for each user input handler, data load event, etc.
+ >  - Dispatch the actions and select the state **only** inside the container components.
+ >  - Make sure to also have a loading flag indicator in each page's state,
+ >  - Install the [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) Chrome plugin to be able to debug your store.
+ 
+ Further Resources:
+ 
+  - [Understanding Redux + React in Easiest Way](https://medium.com/tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5)
+  - [A beginner’s guide to Redux with React](https://medium.com/@bretcameron/a-beginners-guide-to-redux-with-react-50309ae09a14)
+ 
