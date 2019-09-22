@@ -13,11 +13,7 @@
  - [5. Fetch API](#5-fetch-api)
  - [6. Basic Redux](#6-basic-redux)
  - [7. Redux Saga](#7-redux-saga)
- - [8. Recompose](#7-recompose)
- - [OPT-1. Normalized Redux]()
- - [OPT-2. Internationalization]()
- - [OPT-3. Unit Testing](#opt-5-unit-testing)
- - [OPT-4. E2E Testing](#opt-6-e2e-testing)
+ - [OPT-1. Recompose](#opt-1-recompose)
 
 ## Working Mode
 
@@ -249,3 +245,21 @@ Goal: trigger the Fetch API calls using actions
  Further Resources:
  
   - [Handle side-effects with Redux-Saga](https://scalac.io/redux-saga-handle-side-effects-2/)
+
+## OPT-1. Recompose
+
+Goal: understand the concept of Higher Order Components (HOC)
+
+Required Reading:
+
+ - [Using Recompose to write clean higher-order components](https://blog.logrocket.com/using-recompose-to-write-clean-higher-order-components-3019a6daf44c/)
+ - [Building HOCs with Recompose](https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101)
+ - [Recompose Recipes](https://github.com/acdlite/recompose/wiki/Recipes)
+ 
+ Online Shop:
+ 
+  > Transform all your container components to recomposed components (created by just applying a series of HOCs on the presentational component).
+  >
+  > Create a HOC for displaying a loading indicator if the loading property is set to `true`. Use this HOC throughout the application.
+  
+ 
