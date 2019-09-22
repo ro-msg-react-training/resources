@@ -223,7 +223,7 @@ Online Shop:
  > Hints:
  >
  >  - Create a reducer for each page,
- >  - Add actions for each user input handler, data load event, etc.
+ >  - Add actions for each user input handler, data load event, etc. For each API call, you should create three actions: one which is dispatched when you do the fetch call, one which is dispatched if the fetch call succeeds and one if it fails. Example: `READ_PRODUCTS`, `READ_PRODUCTS_SUCCESS`, `READ_PRODUCTS_ERROR`.
  >  - Dispatch the actions and select the state **only** inside the container components.
  >  - Make sure to also have a loading flag indicator in each page's state,
  >  - Install the [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) Chrome plugin to be able to debug your store.
