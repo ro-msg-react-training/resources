@@ -73,25 +73,6 @@ Further Resources:
  - [CSS Media Queries](https://www.htmldog.com/guides/css/advanced/mediaqueries/)
  - [W3's Intro Tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)
  - [GitHub - Hello World](https://guides.github.com/activities/hello-world/)
- 
- ## 0. HTML and CSS Basics
-
-Goal: refresh your knowledge about HTML and CSS basic concepts.
-
-Required Reading:
-
- - [HTML Beginner Guide](https://www.htmldog.com/guides/html/beginner/)
- - [CSS Beginner Guide](https://www.htmldog.com/guides/css/beginner/)
- - [Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
-
-Online Shop: *nothing to do*.
-
-Further Resources:
-
- - [HTML and CSS Reference](https://www.htmldog.com/references/)
- - [CSS Media Queries](https://www.htmldog.com/guides/css/advanced/mediaqueries/)
- - [W3's Intro Tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)
- - [GitHub - Hello World](https://guides.github.com/activities/hello-world/)
 
 ## 1. React Intro
 
