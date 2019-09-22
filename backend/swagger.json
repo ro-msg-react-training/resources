@@ -1,0 +1,350 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "This is a sample online shop for the Angular training. The product catalog may be accessed even without logging in (the login is just a mock endpoint). Users may have any of the three following roles: 'user' (always), 'customer', 'admin'.",
+      "version": "0.0.1",
+      "title": "Online Shop"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "products",
+        "description": "Product operations"
+      },
+      {
+        "name": "users",
+        "description": "User operations"
+      },
+      {
+        "name": "orders",
+        "description": "Order operations"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/products": {
+        "post": {
+          "tags": [
+            "products"
+          ],
+          "summary": "Add a new product to the catalogue",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "description": "Product object to be added to the catalogue",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "successful operation",
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          }
+        },
+        "get": {
+          "tags": [
+            "products"
+          ],
+          "summary": "Read all products in the catalogue",
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "successful operation",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ProductHeader"
+                }
+              }
+            }
+          }
+        }
+      },
+      "/products/{id}": {
+        "put": {
+          "tags": [
+            "products"
+          ],
+          "summary": "Updates a product from the catalogue",
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "description": "The product ID",
+              "required": true,
+              "type": "integer"
+            },
+            {
+              "in": "body",
+              "name": "body",
+              "description": "Product object to be updated",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "successful operation"
+            },
+            "404": {
+              "description": "product not found"
+            }
+          }
+        },
+        "delete": {
+          "tags": [
+            "products"
+          ],
+          "summary": "Deletes a product from the catalogue",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "description": "The product ID",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "successful operation"
+            },
+            "404": {
+              "description": "product not found"
+            }
+          }
+        },
+        "get": {
+          "tags": [
+            "products"
+          ],
+          "summary": "Reads a product from the catalogue",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "description": "The product ID",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "successful operation",
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            },
+            "404": {
+              "description": "product not found"
+            }
+          }
+        }
+      },
+      "/login": {
+        "post": {
+          "tags": [
+            "users"
+          ],
+          "summary": "Login to the online shop",
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "description": "User credentials",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Credentials"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "successful operation",
+              "schema": {
+                "$ref": "#/definitions/User"
+              }
+            },
+            "401": {
+              "description": "username or password is incorrect"
+            }
+          }
+        }
+      },
+      "/orders": {
+        "post": {
+          "tags": [
+            "orders"
+          ],
+          "summary": "Create an order",
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "description": "Order details",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/OrderInput"
+              }
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "successful operation"
+            },
+            "401": {
+              "description": "user or product not found"
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "Product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64",
+            "example": 123
+          },
+          "name": {
+            "type": "string",
+            "example": "Lorem"
+          },
+          "category": {
+            "type": "string",
+            "example": "Ipsum"
+          },
+          "price": {
+            "type": "integer",
+            "format": "int64",
+            "example": 150
+          },
+          "image": {
+            "type": "string",
+            "example": "https://www.gstatic.com/webp/gallery3/1.sm.png",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string",
+            "example": "Lorem ipsum"
+          }
+        }
+      },
+      "ProductHeader": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64",
+            "example": 123
+          },
+          "name": {
+            "type": "string",
+            "example": "Lorem"
+          },
+          "category": {
+            "type": "string",
+            "example": "Ipsum"
+          },
+          "price": {
+            "type": "integer",
+            "format": "int64",
+            "example": 150
+          }
+        }
+      },
+      "Credentials": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "example": "doej"
+          },
+          "password": {
+            "type": "string",
+            "example": "password"
+          }
+        }
+      },
+      "OrderInput": {
+        "type": "object",
+        "properties": {
+          "customer": {
+            "type": "string",
+            "example": "doej"
+          },
+          "products": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "productId": {
+                  "type": "integer",
+                  "example": 123
+                },
+                "quantity": {
+                  "type": "integer",
+                  "example": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "example": "doej"
+          },
+          "fullName": {
+            "type": "string",
+            "example": "John Doe"
+          },
+          "roles": {
+            "type": "array",
+            "example": [
+              "user",
+              "customer",
+              "admin"
+            ],
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }

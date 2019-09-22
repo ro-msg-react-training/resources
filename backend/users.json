@@ -1,0 +1,20 @@
+{
+    "doej": {
+        "username": "doej",
+        "password": "password",
+        "fullName": "John Doe",
+        "roles": ["user", "customer"]
+    },
+    "blackj": {
+        "username": "blackj",
+        "password": "12345678",
+        "fullName": "Jack Black",
+        "roles": ["user", "admin"]
+    },
+    "whiteb": {
+        "username": "whiteb",
+        "password": "abcdefgh",
+        "fullName": "Ben White",
+        "roles": ["user"]
+    }
+}
