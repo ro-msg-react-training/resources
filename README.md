@@ -28,11 +28,11 @@ All the code written must be published on GitHub. Access the [this link](https:/
 You can work using your local environment:
  - You need to install [NodeJS](https://nodejs.org/en/) and [VSCode](https://code.visualstudio.com/download).
 
-In the `backend` folder you can find a server-side implementation for the online shop. Tu run this server perform the following:
+In the `backend` folder you can find a server-side implementation for the online shop. To run this server perform the following:
  - Open the `backend` folder in your terminal
  - `npm ci` (only needed the first time your run the server)
  - `npm start`
- - Open [http://localhost:3000](http://localhost:3000) in your browser.
+ - Open [http://localhost:4000](http://localhost:4000) in your browser.
 
 ## Online Shop
 The application will simply browse through a catalog of products. It will support:
