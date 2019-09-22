@@ -12,9 +12,8 @@
  - [4. Routing](#4-routing)
  - [5. Fetch API](#5-fetch-api)
  - [6. Basic Redux](#6-basic-redux)
- - [7. Redux Saga](#6-redux-saga)
+ - [7. Redux Saga](#7-redux-saga)
  - [8. Recompose](#7-recompose)
- - [9. Lazy loading]()
  - [OPT-1. Normalized Redux]()
  - [OPT-2. Internationalization]()
  - [OPT-3. Unit Testing](#opt-5-unit-testing)
@@ -233,3 +232,20 @@ Online Shop:
   - [Understanding Redux + React in Easiest Way](https://medium.com/tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5)
   - [A beginner’s guide to Redux with React](https://medium.com/@bretcameron/a-beginners-guide-to-redux-with-react-50309ae09a14)
  
+## 7. Redux Saga
+
+Goal: trigger the Fetch API calls using actions
+
+ Required Reading:
+ 
+  - [Redux Saga: Getting Started](https://redux-saga.js.org/)
+  - [Redux Saga: Beginner Tutorial](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
+  - [A Newb's guide to Redux Saga](https://medium.com/@adlusk/a-newbs-guide-to-redux-saga-e597d8e6c486)
+  
+ Online Shop:
+ 
+  > Move all the fetch API calls into dedicated Sagas. 
+  
+ Further Resources:
+ 
+  - [Handle side-effects with Redux-Saga](https://scalac.io/redux-saga-handle-side-effects-2/)
