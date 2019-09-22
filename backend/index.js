@@ -87,6 +87,6 @@ app.post('/orders', function (req, res) {
 
 app.use('/', swagger.serve, swagger.setup(require('./swagger.json')));
 
-app.listen(3000, function() {
-    console.log('Server listening on port 3000... Press CTRL + C to stop.')
+app.listen(4000, function() {
+    console.log('Server listening on port 4000... Press CTRL + C to stop.')
 });
