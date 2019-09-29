@@ -6,14 +6,17 @@
  - [Environment](#environment)
  - [Online Shop](#online-shop)
  - [0. HTML and CSS Basics](#0-html-and-css-basics)
- - [1. React Intro](#1-react-intro)
- - [2. Components](#2-components)
- - [3. SCSS](#3-scss)
- - [4. Routing](#4-routing)
- - [5. Fetch API](#5-fetch-api)
- - [6. Basic Redux](#6-basic-redux)
- - [7. Redux Saga](#7-redux-saga)
+ - [1. TypeScript][#1-typescript]
+ - [2. React Intro](#2-react-intro)
+ - [3. Components](#3-components)
+ - [4. SCSS](#4-scss)
+ - [5. Routing](#5-routing)
+ - [6. Fetch API](#6-fetch-api)
+ - [7. Basic Redux](#7-basic-redux)
+ - [8. Redux Saga](#8-redux-saga)
  - [OPT-1. Recompose](#opt-1-recompose)
+ - [OPT-2. GoJs](#opt-1-recompose)
+ - [OPT-3. Highcharts](#opt-1-recompose)
 
 ## Working Mode
 
@@ -69,7 +72,24 @@ Further Resources:
  - [W3's Intro Tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)
  - [GitHub - Hello World](https://guides.github.com/activities/hello-world/)
 
-## 1. React Intro
+## 1. TypeScript
+
+Goal: learn a bit of TypeScript.
+
+Required Reading:
+
+ - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+ - [What is TypeScript and why would I use it in place of JavaScript?](https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript) *(read the top two answers)*
+ 
+Online Shop: *nothing to do*.
+
+Further Resources:
+
+ - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+ - [Why TypeScript is the best way to write Front-end in 2019](https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164)
+ - [Why I no longer use TypeScript with React and why you shouldn’t either](https://hackernoon.com/why-i-no-longer-use-typescript-with-react-and-why-you-shouldnt-either-e744d27452b4)
+
+## 2. React Intro
 
 Goal: become familiar with React.
 
@@ -83,7 +103,7 @@ Online Shop:
 
  > Install *Create React App* with the help of the NodeJS package manager: `npm install -g create-react-app`.
  > 
- > Create a new project in the root of your git repository by using the CLI: `create-react-app online-shop`.
+ > Create a new project in the root of your git repository by using the CLI: `create-react-app online-shop --typescript`.
  > 
  > Navigate inside the project folder, start the project and open its home page in your browser: `npm start`.
  >
@@ -94,7 +114,7 @@ Further Resources:
  - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
  - [How to see your React state and props in the browser](https://www.freecodecamp.org/news/how-to-see-your-react-state-props-in-the-browser-774098a50fcc/)
 
-## 2. Components
+## 3. Components
 
 Goal: get a grip on the basics of React Components.
 
@@ -122,7 +142,7 @@ Online Shop:
  - [Why do I need Keys in React Lists?](https://medium.com/@adhithiravi/why-do-i-need-keys-in-react-lists-dbb522188bbb)
  - [React Virtual DOM Explained](https://programmingwithmosh.com/react/react-virtual-dom-explained/)
  
- ## 3. SCSS
+ ## 4. SCSS
  
  Goal: understand the usage of SCSS and integrate an existing CSS library - Bulma.
  
@@ -146,7 +166,7 @@ Online Shop:
  - [Bulma Documentation](https://bulma.io/documentation/)
  - [SCSS Basics](https://medium.com/web-development-articles/scss-basics-279ce9c0acb8)
  
- ## 4. Routing
+ ## 5. Routing
  
  Goal: understand the basics of React Router and add routing to your project
  
@@ -172,7 +192,7 @@ Online Shop:
  
   - [React Router: Redirects](https://reacttraining.com/react-router/web/example/auth-workflow)
   
- ## 5. Fetch API
+ ## 6. Fetch API
  
  Goal: communicate with the mock backend using the Fetch API.
  
@@ -195,7 +215,7 @@ Online Shop:
   
   - [React Component Reference](https://reactjs.org/docs/react-component.html)
  
- ## 6. Basic Redux
+ ## 7. Basic Redux
  
  Goal: use Redux to manage application state and understand the difference between container and presentational components.
  
@@ -228,7 +248,7 @@ Online Shop:
   - [Understanding Redux + React in Easiest Way](https://medium.com/tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5)
   - [A beginner’s guide to Redux with React](https://medium.com/@bretcameron/a-beginners-guide-to-redux-with-react-50309ae09a14)
  
-## 7. Redux Saga
+## 8. Redux Saga
 
 Goal: trigger the Fetch API calls using actions
 
@@ -262,4 +282,7 @@ Required Reading:
   >
   > Create a HOC for displaying a loading indicator if the loading property is set to `true`. Use this HOC throughout the application.
   
+ ## OPT-2. GoJs
+ 
+ ## OPT-3. Highcharts
  
