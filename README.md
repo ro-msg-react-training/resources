@@ -6,7 +6,7 @@
  - [Environment](#environment)
  - [Online Shop](#online-shop)
  - [0. HTML and CSS Basics](#0-html-and-css-basics)
- - [1. TypeScript][#1-typescript]
+ - [1. TypeScript](#1-typescript)
  - [2. React Intro](#2-react-intro)
  - [3. Components](#3-components)
  - [4. SCSS](#4-scss)
