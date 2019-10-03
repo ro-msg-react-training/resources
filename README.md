@@ -175,6 +175,7 @@ Online Shop:
  - [React Router: Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
  - [React Router: Components](https://reacttraining.com/react-router/web/guides/basic-components)
  - [A Simple React Router Tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutorial/)
+ - [React: Handling Events](https://reactjs.org/docs/handling-events.html)
  
  Online Shop:
  
@@ -198,6 +199,7 @@ Online Shop:
  
  Required Reading:
  
+  - [React: State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
   - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
   - [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data)
  
