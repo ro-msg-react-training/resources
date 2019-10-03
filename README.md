@@ -223,6 +223,7 @@ Online Shop:
  
  Required Reading:
  
+  - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
   - [Container vs Presentational Components in React](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)
   - [Redux: Getting Started](https://redux.js.org/introduction/getting-started)
   - [Redux: Basic Tutorial](https://redux.js.org/basics/basic-tutorial)
