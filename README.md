@@ -294,7 +294,7 @@ Required Reading:
   
   Online Shop:
   
-   > Create a new page for displaying total sales figures per product type. This data should be displayed in two different charts: a bar chart and a pie chart. The data is available in the `backend/sales.json` file.
+   > Create a new page for displaying total sales figures per product type. This data should be displayed in two different charts: a bar chart and a pie chart. The data is available at the `/sales` REST API (make sure to pull the latest version of the backend).
   
   Further Resources:
    - [API Reference](https://api.highcharts.com/highcharts/)

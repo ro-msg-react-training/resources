@@ -5,6 +5,7 @@ const swagger = require('swagger-ui-express');
 
 const products = require('./products.json');
 const users = require('./users.json');
+const sales = require('./sales.json');
 
 const app = express();
 
@@ -20,6 +21,10 @@ function copy(id, { name, category, price, description, image }) {
 }
 
 let nextId = Math.max.apply(Math, Object.keys(products).map(n => parseInt(n, 10))) + 1;
+
+app.get('/sales', function (_, res) {
+    res.send(sales);
+});
 
 app.get('/products', function (_, res) {
     res.send(Object.values(products)

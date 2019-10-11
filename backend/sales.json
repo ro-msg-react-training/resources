@@ -1,0 +1,15 @@
+[
+  { "category": "Laptops", "sales": 6025.32 },
+  { "category": "Accessories", "sales": 9253.15 },
+  { "category": "Flat Screen Monitors", "sales": 2966.65 },
+  { "category": "Printers", "sales": 8201.75 },
+  { "category": "Multifunction Printers", "sales": 4860.69 },
+  { "category": "Mice", "sales": 2613.58 },
+  { "category": "Keyboards", "sales": 1889.23 },
+  { "category": "Mousepads", "sales": 2522.0 },
+  { "category": "Computer System Accessories", "sales": 3019.13 },
+  { "category": "Graphic Cards", "sales": 9250.11 },
+  { "category": "Scanners", "sales": 4659.36 },
+  { "category": "Speakers", "sales": 3120.31 },
+  { "category": "Software", "sales": 7356.73 }
+]
