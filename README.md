@@ -15,8 +15,7 @@
  - [7. Basic Redux](#7-basic-redux)
  - [8. Redux Saga](#8-redux-saga)
  - [OPT-1. Recompose](#opt-1-recompose)
- - [OPT-2. GoJs](#opt-1-recompose)
- - [OPT-3. Highcharts](#opt-1-recompose)
+ - [OPT-2. Highcharts](#opt-2-highcharts)
 
 ## Working Mode
 
@@ -285,7 +284,20 @@ Required Reading:
   >
   > Create a HOC for displaying a loading indicator if the loading property is set to `true`. Use this HOC throughout the application.
   
- ## OPT-2. GoJs
+ ## OPT-2. Highcharts
  
- ## OPT-3. Highcharts
+ Goal: become familiar with Highcharts basics and usage within React
+ 
+ Required Reading:
+  - [Chart Concepts](https://www.highcharts.com/docs/chart-concepts/understanding-highcharts) *whole chapter*
+  - [React Wrapper](https://www.highcharts.com/blog/tutorials/highcharts-react-wrapper/)
+  
+  Online Shop:
+  
+   > Create a new page for displaying total sales figures per product type. This data should be displayed in two different charts: a bar chart and a pie chart. The data is available in the `backend/sales.json` file.
+  
+  Further Resources:
+   - [API Reference](https://api.highcharts.com/highcharts/)
+   - [Using Pie Charts](https://stackoverflow.com/questions/54806064/using-piechart-from-highcharts-react-official)
+ 
  
