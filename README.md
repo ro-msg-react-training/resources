@@ -157,29 +157,25 @@ Online Shop:
  
  - [Getting Started With The React Hooks API](https://www.smashingmagazine.com/2020/04/react-hooks-api-guide/)
  
- ## 5. SCSS
+ ## 5. CSS-in-JS
  
- Goal: understand the usage of SCSS and integrate an existing CSS library - Bulma.
+ Goal: understand the usage of CSS-in-JS and integrate an existing library - Material UI.
  
  Required Reading:
 
-- [SASS Basics](https://sass-lang.com/guide)
-- [Bulma Introduction](https://www.freecodecamp.org/news/learn-bulma-in-5-minutes-ec5188c53e83/)
-- [Adding a SCSS Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+- [Intro Presentation](https://oliviertassinari.github.io/a-journey-toward-better-style)
+- [Material-UI: Getting Started](https://material-ui.com/getting-started/installation/)
+- [Material-UI: Advanced Styles](https://material-ui.com/styles/advanced/)
 
 Online Shop:
 
- > Install the Bulma library. Use the built-in CSS classes to style your existing components.
+ > Install the Material-UI library. Use the built-in components instead of custom presentational components or basic HTML tags (where possible).
  >
- > Change the theme of the Bulma classes by replacing the following:
- > - Primary color: #a01441
- > - Font: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+ > Change the theme of the Material UI components by switching the primary color to `#a01441`.
  
  Further Resources:
  
- - [Theming Bulma](https://bulma.io/documentation/customize/with-node-sass/)
- - [Bulma Documentation](https://bulma.io/documentation/)
- - [SCSS Basics](https://medium.com/web-development-articles/scss-basics-279ce9c0acb8)
+ - [Building your first web page with React and Material-UI](https://medium.com/swlh/building-your-first-web-page-with-react-and-material-ui-287461c5f58a)
  
  ## 6. Routing
  
