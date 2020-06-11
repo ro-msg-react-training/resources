@@ -102,7 +102,7 @@ Online Shop:
 
  > Install *Create React App* with the help of the NodeJS package manager: `npm install -g create-react-app`.
  > 
- > Create a new project in the root of your git repository by using the CLI: `create-react-app online-shop --typescript`.
+ > Create a new project in the root of your git repository by using the CLI: `create-react-app online-shop --template typescript`.
  > 
  > Navigate inside the project folder, start the project and open its home page in your browser: `npm start`.
  >
@@ -141,7 +141,23 @@ Online Shop:
  - [Why do I need Keys in React Lists?](https://medium.com/@adhithiravi/why-do-i-need-keys-in-react-lists-dbb522188bbb)
  - [React Virtual DOM Explained](https://programmingwithmosh.com/react/react-virtual-dom-explained/)
  
- ## 4. SCSS
+ ## 4. Hooks
+ 
+Goal: get used to working with Hooks.
+
+Required Reading:
+
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+Online Shop:
+
+ > Migrate your React component(s) from before from using class-based components to using hooks inside functional components. 
+ 
+ Further Resources:
+ 
+ - [Getting Started With The React Hooks API](https://www.smashingmagazine.com/2020/04/react-hooks-api-guide/)
+ 
+ ## 5. SCSS
  
  Goal: understand the usage of SCSS and integrate an existing CSS library - Bulma.
  
@@ -165,7 +181,7 @@ Online Shop:
  - [Bulma Documentation](https://bulma.io/documentation/)
  - [SCSS Basics](https://medium.com/web-development-articles/scss-basics-279ce9c0acb8)
  
- ## 5. Routing
+ ## 6. Routing
  
  Goal: understand the basics of React Router and add routing to your project
  
@@ -192,7 +208,7 @@ Online Shop:
  
   - [React Router: Redirects](https://reacttraining.com/react-router/web/example/auth-workflow)
   
- ## 6. Fetch API
+ ## 7. Fetch API
  
  Goal: communicate with the mock backend using the Fetch API.
  
@@ -216,7 +232,7 @@ Online Shop:
   
   - [React Component Reference](https://reactjs.org/docs/react-component.html)
  
- ## 7. Basic Redux
+ ## 8. Basic Redux
  
  Goal: use Redux to manage application state and understand the difference between container and presentational components.
  
@@ -250,7 +266,7 @@ Online Shop:
   - [Understanding Redux + React in Easiest Way](https://medium.com/tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5)
   - [A beginner’s guide to Redux with React](https://medium.com/@bretcameron/a-beginners-guide-to-redux-with-react-50309ae09a14)
  
-## 8. Redux Saga
+## 9. Redux Saga
 
 Goal: trigger the Fetch API calls using actions
 
