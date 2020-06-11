@@ -9,13 +9,12 @@
  - [1. TypeScript](#1-typescript)
  - [2. React Intro](#2-react-intro)
  - [3. Components](#3-components)
- - [4. SCSS](#4-scss)
- - [5. Routing](#5-routing)
- - [6. Fetch API](#6-fetch-api)
- - [7. Basic Redux](#7-basic-redux)
- - [8. Redux Saga](#8-redux-saga)
- - [OPT-1. Recompose](#opt-1-recompose)
- - [OPT-2. Highcharts](#opt-2-highcharts)
+ - [4. Hooks](#4-hooks)
+ - [5. CSS-in-JS](#5-css-in-js)
+ - [6. Routing](#6-routing)
+ - [7. Fetch API](#7-fetch-api)
+ - [8. Basic Redux](#8-basic-redux)
+ - [9. Redux Saga](#9-redux-saga)
 
 ## Working Mode
 
