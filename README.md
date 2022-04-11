@@ -264,7 +264,6 @@ Online Shop:
  
  Further Resources:
  
-  - [Understanding Redux + React in Easiest Way](https://medium.com/tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5)
   - [A beginner’s guide to Redux with React](https://medium.com/@bretcameron/a-beginners-guide-to-redux-with-react-50309ae09a14)
  
 ## 9. Redux Saga
