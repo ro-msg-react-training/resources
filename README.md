@@ -8,7 +8,7 @@
  - [0. HTML and CSS Basics](#0-html-and-css-basics)
  - [1. TypeScript](#1-typescript)
  - [2. React Intro](#2-react-intro)
- - [3. Components](#3-components))
+ - [3. Components](#3-components)
  - [4. Hooks](#4-hooks)
  - [5. SCSS](#5-scss)
  - [6. Routing](#6-routing)
